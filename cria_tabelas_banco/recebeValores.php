@@ -1,7 +1,7 @@
 ﻿<?php
 	if($_GET!= null){
 	echo"<a href='trabalhoWeb.php'>Clique aqui para voltar</a><br />";
-	$vet="";
+	$vet=array();
 	$qtd = $_GET['qtd'];
 	$nomeTabela = $_GET['nomeTabela'];
 	for($i=0;$i<$qtd;$i++){
